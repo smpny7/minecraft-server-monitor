@@ -15,7 +15,6 @@
   "main": "lib/index.js",
   "dependencies": {
     "dateformat": "^4.5.1",
-    "dotenv": "^9.0.0",
     "firebase-admin": "^9.2.0",
     "firebase-functions": "^3.11.0",
     "mc-ping-updated": "^0.1.1"
@@ -26,7 +25,6 @@
     "eslint": "^7.6.0",
     "eslint-config-google": "^0.14.0",
     "eslint-plugin-import": "^2.2.0",
-    "firebase-functions-test": "^0.2.0",
     "typescript": "^3.8.0"
   },
   "private": true
