@@ -52,11 +52,11 @@ $ firebase deploy
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/smpny7/minecraft-server-monitor/blob/master/CONTRIBUTION.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/smpny7/minecraft-server-monitor/blob/main/CONTRIBUTION.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 
 ## License
 
-This project is licensed under the MIT License - see [LICENSE.md](https://github.com/smpny7/minecraft-server-monitor/blob/master/LICENCE) file for details.
+This project is licensed under the MIT License - see [LICENSE.md](https://github.com/smpny7/minecraft-server-monitor/blob/main/LICENCE) file for details.
 
 Copyright &copy; 2021 Developed by [smpny7](https://github.com/smpny7).
