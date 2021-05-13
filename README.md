@@ -30,7 +30,7 @@ Register your Minecraft server `address` and `port`.
 $ firebase functions:config:set server.address="minecraft-sample-server.com" server.port="25565"
 ```
 
-Set webhook url for notification to Discord.
+Set webhook url for Discord notification.
 
 - Notification: regular notification during stable operation
 - Emergency: emergency notification when the server is stopped
