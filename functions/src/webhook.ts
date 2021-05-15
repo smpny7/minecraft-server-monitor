@@ -4,7 +4,6 @@ import * as functions from "firebase-functions";
 const dateformat = require("dateformat");
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const exec = require("child_process").exec;
-const now = new Date();
 
 // ######   SETTINGS   #########################################################
 const colorSuccess = 6815520;
@@ -44,20 +43,22 @@ export function post(title: string, description: string, status: number) {
       color = colorNotify;
   }
 
+  /* eslint-disable */
   const json = `
       {
           "embeds": [ {
               "title": "${title}",
               "description": "${description}",
-              "timestamp": "${dateformat(now, "yyyy-mm-dd HH:MM:ss+09:00")}",
+              "timestamp": "${dateformat(new Date(), "yyyy-mm-dd HH:MM:ss+09:00")}",
               "color": "${color}",
               "footer": {
-                  "text": "© ${dateformat(now, "yyyy")} ${webhookCopyright}",
+                  "text": "© ${dateformat(new Date(), "yyyy")} ${webhookCopyright}",
                   "icon_url": ""
               }
           } ]
       }
   `;
+  /* eslint-enable */
 
   // eslint-disable-next-line max-len
   exec(`curl -H "Content-Type: application/json" -X POST -d '${json}' "${webhookNotificationsUrl}"`);
