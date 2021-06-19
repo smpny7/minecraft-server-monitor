@@ -57,6 +57,6 @@ Please read [CONTRIBUTING.md](https://github.com/smpny7/minecraft-server-monitor
 
 ## License
 
-This project is licensed under the MIT License - see [LICENSE.md](https://github.com/smpny7/minecraft-server-monitor/blob/main/LICENCE) file for details.
+This project is licensed under the MIT License - see [LICENSE](https://github.com/smpny7/minecraft-server-monitor/blob/main/LICENCE) for details.
 
 Copyright &copy; 2021 Developed by [smpny7](https://github.com/smpny7).
